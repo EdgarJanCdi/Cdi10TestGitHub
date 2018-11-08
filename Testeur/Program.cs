@@ -15,6 +15,7 @@ namespace Testeur
             p1.Age = 21;
             Console.WriteLine("L'age de " + p1.Name + " est : " + p1.Age);
             Console.WriteLine("1");
+            Console.WriteLine("2");
             Console.ReadKey();
         }
     }
