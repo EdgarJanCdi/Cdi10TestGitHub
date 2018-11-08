@@ -15,5 +15,12 @@ namespace DllGitHubLocal
             get { return _Age; }
             set { _Age = value; }
         }
+        private string _Name;
+
+        public string Name
+        {
+            get { return _Name; }
+            set { _Name = value; }
+        }
     }
 }
