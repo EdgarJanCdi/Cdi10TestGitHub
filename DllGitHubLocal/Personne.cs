@@ -22,5 +22,9 @@ namespace DllGitHubLocal
             get { return _Name; }
             set { _Name = value; }
         }
+        public Personne()
+        {
+
+        }
     }
 }
