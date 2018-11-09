@@ -9,6 +9,7 @@ namespace DllGitHubLocal
     public class Personne
     {
         private int _Age;
+        string _Prenom;
 
         public int Age
         {
@@ -33,7 +34,16 @@ namespace DllGitHubLocal
 
 
         public Personne(string st)
+        public string Prenom
         {
+            get { return _Prenom; }
+            set { _Prenom = value; }
+        }
+        public Personne(int age,string name, string prenom)
+        {
+            _Age = age;
+            _Name = name;
+            _Prenom = prenom;
             Name = st;
         }
     }
