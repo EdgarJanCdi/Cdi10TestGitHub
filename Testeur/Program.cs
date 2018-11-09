@@ -11,8 +11,7 @@ namespace Testeur
     {
         static void Main(string[] args)
         {
-            Personne p1 = new Personne();
-            p1.Age = 21;
+            Personne p1 = new Personne(30,"Dupont","Paul");
             Console.WriteLine("L'age de " + p1.Name + " est : " + p1.Age);
             Console.WriteLine("1");
             Console.WriteLine("2");
