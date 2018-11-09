@@ -24,7 +24,7 @@ namespace DllGitHubLocal
         }
         public Personne(string st)
         {
-
+            Name = st;
         }
     }
 }
