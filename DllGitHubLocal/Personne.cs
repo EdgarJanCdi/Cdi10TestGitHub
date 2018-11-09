@@ -22,6 +22,16 @@ namespace DllGitHubLocal
             get { return _Name; }
             set { _Name = value; }
         }
+
+        private int _Telephone;
+
+        public int Telephone
+        {
+            get { return _Telephone; }
+            set { _Telephone = value; }
+        }
+
+
         public Personne(string st)
         {
             Name = st;
